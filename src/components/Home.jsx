@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import classes from './Home.module.css';
 import './../App.css';
+import girlPicture from './../img/girl_with_computer.png';
 function Home() {
    return (
       <div className={classes.content}>
@@ -15,7 +16,7 @@ function Home() {
                   </div>
                </div>
                <div className={classes.picture}>
-                  <img src="./img/girl_with_computer.png" alt="Девочка за компьютером" />
+                  <img src={girlPicture} alt="Девочка за компьютером" />
                </div>
             </div>
          </div>

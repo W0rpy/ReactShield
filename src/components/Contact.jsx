@@ -3,6 +3,9 @@ import './../App.css';
 import { Link } from 'react-router-dom';
 import classes from './Contact.module.css';
 import TitleBlock from './TitleBlock';
+import facebook from "./../img/facebook.svg";
+import twitter from './../img/twitter.svg';
+import youtube from './../img/youtube.svg';
 function Contact() {
    return (
       <div className={classes.ContactUs}>
@@ -16,13 +19,13 @@ function Contact() {
                <TitleBlock title='Follow Us' />
                <div className={classes.network}>
                   <Link to="##" >
-                     <img src='../../img/facebook.svg' alt="Фейсбук" />
+                     <img src={facebook} alt="Фейсбук" />
                   </Link>
                   <Link to="##" >
-                     <img src='../../img/twitter.svg' alt="Твиттер" />
+                     <img src={twitter} alt="Твиттер" />
                   </Link>
                   <Link to="##" >
-                     <img src='../../img/youtube.svg' alt="Ютуб" />
+                     <img src={youtube} alt="Ютуб" />
                   </Link>
                </div>
             </div>

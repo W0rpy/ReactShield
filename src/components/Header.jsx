@@ -6,6 +6,7 @@ import Popap from './Popap';
 import Burger from './Burger';
 import './burger.css';
 import '../App.css';
+import myImg from "./../img/logo_shield.svg";
 
 function Header() {
 
@@ -26,7 +27,7 @@ function Header() {
       <div className={classes.Header_block}>
          <div className={classes.Header_logo}>
             <div className={classes.Header_icon}>
-               <img src="./img/logo_shield.svg" alt="Лого" />
+               <img src={myImg} alt="Лого" />
             </div>
             <div className={classes.logo_text}>
                shield
