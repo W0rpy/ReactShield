@@ -1,0 +1,27 @@
+.ContactUs {
+   background-color: #FFFFFF;
+   min-height: 82.7vh;
+}
+
+.Contact {
+   padding: 100px 0px 0px;
+}
+
+.Contact_text {
+   text-align: center;
+   margin-bottom: 50px;
+}
+
+.network {
+   text-align: center;
+}
+
+.network img {
+   margin: 0px 15px;
+}
+
+@media (max-width:676.98px) {
+   .Contact {
+      padding: 80px 0px 0px;
+   }
+}

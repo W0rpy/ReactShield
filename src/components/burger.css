@@ -1,0 +1,115 @@
+body.hidden {
+   overflow: hidden;
+}
+
+.menu_burger {
+   width: 30px;
+   height: 20px;
+   position: relative;
+   display: none;
+}
+
+.menu_burger span {
+   width: 100%;
+   height: 2px;
+   position: absolute;
+   background-color: black;
+   left: 0;
+}
+
+.menu_burger span:first-child {
+   top: 1px;
+}
+
+.menu_burger span:nth-child(2) {
+   top: 9px;
+}
+
+.menu_burger span:last-child {
+   bottom: 1px;
+}
+
+.menu_burger.lock span:nth-child(2) {
+   opacity: 0;
+}
+
+.menu_burger.lock span:first-child {
+   transform: rotate(45deg);
+   top: 9px;
+   transition: all 0.3s linear 0s;
+}
+
+.menu_burger.lock span:last-child {
+   transform: rotate(-45deg);
+   bottom: 9px;
+   transition: all 0.3s linear 0s;
+}
+
+/*---------------------------------------Header_menu-------------------------------*/
+.header_menu {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header_menu li {
+   margin: 0px 20px;
+}
+
+.header_menu li:first-child {
+   margin: 0px 20px 0px 0px;
+}
+
+
+/*------------------------------------ 992-------------------------------*/
+@media (max-width:992.98px) {
+   .header_menu li {
+      margin: 0px 10px;
+   }
+
+   .header_menu li:first-child {
+      margin: 0px 10px 0px 0px;
+   }
+
+
+}
+
+/*----------------------- 676-------------------------------*/
+@media (max-width:676.98px) {
+   .menu_burger {
+      display: block;
+      margin-left: 50px;
+      cursor: pointer;
+      z-index: 50;
+   }
+
+   .header_menu {
+      display: none;
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      background-color: #F7F8FD;
+      text-align: center;
+      padding: 100px 0px 0px;
+      top: 0;
+      left: 0;
+      overflow: auto;
+   }
+
+   .header_menu.visible {
+      display: block;
+      z-index: 50;
+   }
+
+
+   .header_menu.visible li {
+      margin: 50px 0px;
+      z-index: 50;
+   }
+}
+
+/*----------------------- 480-------------------------------*/
+@media (max-width:480.98px) {
+   .menu_burger {
+      margin-left: 30px;
+   }
+}

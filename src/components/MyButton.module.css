@@ -1,0 +1,32 @@
+.MyBtn {
+   background-color: #0098FF;
+   border-radius: 0px 5px 5px 0px;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 1.5;
+   text-align: center;
+   padding: 15px 0px;
+   width: 159px;
+   display: inline-block;
+   color: #FFFFFF;
+}
+
+@media (max-width:1199.98px) {
+   .MyBtn {
+      padding: 10px 0px;
+   }
+}
+
+@media (max-width:992.98px) {
+   .MyBtn {
+      padding: 8px 0px;
+      width: 140px;
+   }
+}
+
+@media (max-width:767.98px) {
+   .MyBtn {
+      font-size: 16px;
+      width: 120px;
+   }
+}

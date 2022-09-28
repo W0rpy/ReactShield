@@ -1,0 +1,99 @@
+.card_column {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 80px;
+   flex: 0 0 33.333%;
+}
+
+.column_icon {
+   margin-bottom: 30px;
+}
+
+.column_title {
+   font-family: Ubuntu;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 23px;
+   color: #03045E;
+   margin-bottom: 30px;
+
+}
+
+.column_text {
+   line-height: 1.5;
+}
+
+@media (max-width:1199.98px) {
+   .column_text {
+      font-size: 14px;
+   }
+}
+
+@media (max-width:992.98px) {
+   .card_column {
+      margin-bottom: 50px;
+   }
+}
+
+@media (max-width:767.98px) {
+   .card_column {
+      flex: 0 0 50%;
+      margin-bottom: 40px;
+   }
+
+   .column_text {
+      max-width: 300px;
+   }
+
+   .column_title {
+      margin-bottom: 20px;
+
+   }
+
+}
+
+@media (max-width:676.98px) {
+   .column_title {
+      margin-bottom: 15px;
+   }
+
+   .card_column {
+      flex: 0 0 100%;
+      margin-bottom: 30px;
+   }
+
+   .column_text {
+      max-width: 80%;
+   }
+
+   .column_icon {
+      margin-bottom: 20px;
+   }
+}
+
+@media (max-width:480.98px) {
+   .column_icon {
+      margin-bottom: 10px;
+   }
+
+   .card_column {
+      margin-bottom: 40px;
+   }
+}
+
+@media (max-width:390.98px) {
+   .column_icon {
+      margin-bottom: 10px;
+   }
+
+   .column_icon img {
+      width: 70px;
+      height: 70px;
+   }
+
+   .column_text {
+      font-size: 12px;
+   }
+}

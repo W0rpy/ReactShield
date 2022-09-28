@@ -1,0 +1,28 @@
+.MyInp {
+   width: 500px;
+   background-color: #F6F6F6;
+   border-radius: 5px 0px 0px 5px;
+   padding: 18px 0px 18px 20px;
+   font-family: sans-serif;
+}
+
+@media (max-width:1199.98px) {
+   .MyInp {
+      padding: 15px 0px 15px 15px;
+   }
+}
+
+@media (max-width:992.98px) {
+   .MyInp {
+      padding: 13px 0px 13px 15px;
+      max-width: 400px;
+      min-width: 200px;
+   }
+}
+
+@media (max-width:480.98px) {
+   .MyInp {
+      padding: 13px 0px 13px 15px;
+      max-width: 200px;
+   }
+}

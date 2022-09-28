@@ -1,0 +1,89 @@
+.Post_shell {
+   padding: 20px;
+   border: 2px solid #03045E;
+   border-radius: 10px;
+   max-width: 400px;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 15px;
+   position: relative;
+   color: #03045E;
+   font-size: 18px;
+   line-height: 1.15;
+   font-weight: 500;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.PostList {
+   padding: 20px 0px 0px;
+}
+
+.Button_close {
+   position: absolute;
+   top: 5px;
+   right: 5px;
+   width: 24px;
+   height: 24px;
+   cursor: pointer;
+}
+
+
+.Button_close::before,
+.Button_close::after {
+   content: '';
+   position: absolute;
+   top: 10px;
+   display: block;
+   width: 24px;
+   height: 3px;
+   background: #0098FF;
+}
+
+.Button_close::before {
+   transform: rotate(45deg);
+}
+
+.Button_close::after {
+   transform: rotate(-45deg);
+}
+
+@media (max-width:1199.98px) {
+   .Post_shell {
+      padding: 15px;
+
+   }
+}
+
+@media (max-width:992.98px) {
+   .Post_shell {
+      padding: 15px 15px 10px 10px;
+      font-size: 16px;
+   }
+
+   .Button_close::before,
+   .Button_close::after {
+
+      width: 20px;
+      height: 2px;
+      top: 8px;
+   }
+
+   .Button_close {
+      width: 20px;
+      height: 18px;
+   }
+}
+
+@media (max-width:767.98px) {
+   .Post_shell {
+      padding: 10px;
+      font-size: 14px;
+   }
+}
+
+@media (max-width:676.98px) {
+   .Post_shell {
+      padding: 7px;
+      max-width: 300px;
+   }
+}

@@ -1,0 +1,15 @@
+.Period {
+   font-family: Ubuntu;
+   font-weight: 700;
+   line-height: 1.15;
+   color: #0098FF;
+   margin-bottom: 16px;
+}
+
+@media (max-width: 480.98px) {
+   .Period {
+      margin-bottom: 12px;
+      font-size: 18px;
+   }
+
+}

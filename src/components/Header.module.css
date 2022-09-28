@@ -1,0 +1,185 @@
+.Header_block {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px 0px;
+}
+
+.Header_logo {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   position: relative;
+   z-index: 60;
+}
+
+.Header_items {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.logo_text {
+   text-transform: uppercase;
+   font-weight: 900;
+   color: #03045E;
+   font-size: 30px;
+   line-height: 0.8;
+   letter-spacing: 2px;
+}
+
+.Header_icon {
+   margin: 0px 11px 0px 0px;
+}
+
+.Item_login {
+   width: 120px;
+   height: 49px;
+   border-radius: 5px;
+   background-color: #03045E;
+   color: #FFFFFF;
+   font-size: 18px;
+   font-weight: 700;
+   line-height: 1.5;
+   text-align: center;
+   padding: 11px 0px;
+
+}
+
+.Nav_item {
+   font-weight: 500;
+   line-height: 1.5;
+   color: #03045E;
+}
+
+.Header_login {
+   margin: 0px 0px 0px 20px;
+}
+
+.Form_login {
+   display: flex;
+   flex-direction: column;
+   padding: 30px;
+   background-color: #F6F6F6;
+}
+
+.Form_title {
+   color: #03045E;
+   font-weight: 500;
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.Form_input {
+   margin-bottom: 20px;
+   width: 100%;
+   border: 1px solid rgb(3, 4, 94, 0.2);
+   border-radius: 5px;
+   min-height: 40px;
+}
+
+
+/*------------------------------------ 992-------------------------------*/
+@media (max-width:992.98px) {
+   .Nav_item {
+      font-size: 16px;
+   }
+
+   .Item_login {
+      width: 90px;
+      height: 42px;
+      font-size: 16px;
+      padding: 8px 0px;
+
+   }
+
+   .logo_text {
+      font-size: 26px;
+      letter-spacing: 1.6px;
+   }
+
+   .Header_block {
+      padding: 15px 0px;
+   }
+
+   .Form_login {
+      padding: 10px 20px;
+   }
+
+   .Form_title {
+      margin-bottom: 10px;
+   }
+
+   .Form_input {
+      margin-bottom: 15px;
+   }
+
+
+}
+
+/*----------------------- 730-------------------------------*/
+@media (max-width:730.98px) {
+   .Nav_item {
+      font-size: 14px;
+   }
+}
+
+/*----------------------- 676-------------------------------*/
+@media (max-width:676.98px) {
+
+   .Header_items {
+      flex-direction: row-reverse;
+   }
+
+
+   .Header_block {
+      padding: 20px 0px;
+   }
+
+   .Nav_item {
+      font-size: 35px;
+      font-weight: 700;
+   }
+
+   .Form_title {
+      font-size: 20px;
+   }
+
+}
+
+/*----------------------- 480-------------------------------*/
+@media (max-width:480.98px) {
+
+   .logo_text {
+      font-size: 20px;
+      letter-spacing: 1.5px;
+   }
+
+   .Header_icon img {
+      width: 30px;
+      height: 35px;
+   }
+
+   .Item_login {
+      width: 80px;
+      height: 30px;
+      font-size: 14px;
+      padding: 4px 0px 6px;
+   }
+
+   .Form_login {
+      padding: 10px;
+   }
+
+   .Form_title {
+      font-size: 15px;
+      margin-bottom: 10px;
+   }
+
+   .Form_input {
+      margin-bottom: 10px;
+      min-height: 30px;
+   }
+
+
+}

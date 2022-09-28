@@ -1,0 +1,23 @@
+.TitleBlock {
+   font-family: Ubuntu;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 46px;
+   color: #03045E;
+   margin-bottom: 60px;
+   text-align: center;
+}
+
+@media (max-width:1199.98px) {
+   .TitleBlock {
+      margin-bottom: 30px;
+   }
+
+}
+
+@media (max-width:676.98px) {
+   .TitleBlock {
+      font-size: 35px;
+   }
+
+}
