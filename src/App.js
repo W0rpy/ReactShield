@@ -1,8 +1,12 @@
 import React from 'react';
-import { Route, Routes } from 'react-router';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
-import Popap from './components/Popap';
+import Home from './components/Home';
+import Searvice from './components/Searvice';
+import Contact from './components/Contact';
+import Pricing from './components/Pricing';
+import AboutUs from './components/AboutUs';
 
 function App() {
 
@@ -11,6 +15,18 @@ function App() {
       <header className='header'>
         <div className='container'>
           <Header />
+          <Routes>
+            <Route index element={<Home />}>
+            </Route>
+            <Route path='AboutUs' element={<AboutUs />}>
+            </Route>
+            <Route path='Searvice' element={<Searvice />}>
+            </Route>
+            <Route path='Contact' element={<Contact />}>
+            </Route>
+            <Route path='Pricing' element={<Pricing />}>
+            </Route>
+          </Routes>
         </div>
       </header>
     </div >

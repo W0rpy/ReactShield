@@ -35,10 +35,10 @@ function Header() {
          </div>
          <div className={classes.Header_items}>
             <ul className={isClick ? 'header_menu visible' : 'header_menu'} >
-               <li><NavLink className={classes.Nav_item} onClick={() => setIsClick(false)} to='/'>Home</NavLink></li>
-               <li><NavLink className={classes.Nav_item} onClick={() => setIsClick(false)} to='/AboutUs'>About Us</NavLink></li>
-               <li><NavLink className={classes.Nav_item} onClick={() => setIsClick(false)} to='/Searvice' > Searvice</NavLink></li>
-               <li><NavLink className={classes.Nav_item} onClick={() => setIsClick(false)} to='/Contact' >Contact Us</NavLink></li>
+               <li><NavLink className={classes.Nav_item} onClick={() => setIsClick(false)} to=''>Home</NavLink></li>
+               <li><NavLink className={classes.Nav_item} onClick={() => setIsClick(false)} to='AboutUs'>About Us</NavLink></li>
+               <li><NavLink className={classes.Nav_item} onClick={() => setIsClick(false)} to='Searvice' > Searvice</NavLink></li>
+               <li><NavLink className={classes.Nav_item} onClick={() => setIsClick(false)} to='Contact' >Contact Us</NavLink></li>
             </ul>
             <Burger className={isClick ? 'menu_burger lock' : 'menu_burger'} onClick={() => setIsClick(!isClick)} />
             <div className={classes.Header_login}>
