@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ReactShield/static/css/main.628e6158.css",
+    "main.js": "/ReactShield/static/js/main.7192090d.js",
+    "static/media/girl_with_computer.png": "/ReactShield/static/media/girl_with_computer.d91cb73d51eb37ae4430.png",
+    "static/media/icon_2.svg": "/ReactShield/static/media/icon_2.bfbb8df55f5d6de7753987c0fc7d6ea4.svg",
+    "static/media/icon_4.svg": "/ReactShield/static/media/icon_4.e85aec59459d0708c76129c2c90de0a5.svg",
+    "static/media/icon_1.svg": "/ReactShield/static/media/icon_1.09cf507332406b42d8b92461c71c9da4.svg",
+    "static/media/icon_5.svg": "/ReactShield/static/media/icon_5.aaeddb8b1869b7cf44511ef61e5a25e4.svg",
+    "index.html": "/ReactShield/index.html",
+    "static/media/icon_6.svg": "/ReactShield/static/media/icon_6.ec669ac7d3a5dc67568ad198ca478010.svg",
+    "static/media/icon_3.svg": "/ReactShield/static/media/icon_3.3d0e579a69cb41147bcb0ce1f1c11b9b.svg",
+    "static/media/twitter.svg": "/ReactShield/static/media/twitter.e5511ab9e1b01b230be4c994fb245c18.svg",
+    "static/media/youtube.svg": "/ReactShield/static/media/youtube.e40f212ba50eb2d9583b8ce3829b0700.svg",
+    "static/media/facebook.svg": "/ReactShield/static/media/facebook.a3c1fbbcc7cfb9ee90a6b3388d8f462c.svg",
+    "static/media/logo_shield.svg": "/ReactShield/static/media/logo_shield.2a1ba70238513983d3726fb9357d44e0.svg",
+    "main.628e6158.css.map": "/ReactShield/static/css/main.628e6158.css.map",
+    "main.7192090d.js.map": "/ReactShield/static/js/main.7192090d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.628e6158.css",
+    "static/js/main.7192090d.js"
+  ]
+}
