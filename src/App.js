@@ -12,24 +12,20 @@ function App() {
 
   return (
     <div className='App_wrapper' >
-      <header className='header'>
-        <div className='container'>
-          <Header />
-          <Routes>
-            <Route index element={<Home />}>
-            </Route>
-            <Route path='AboutUs' element={<AboutUs />}>
-            </Route>
-            <Route path='Searvice' element={<Searvice />}>
-            </Route>
-            <Route path='Contact' element={<Contact />}>
-            </Route>
-            <Route path='Pricing' element={<Pricing />}>
-            </Route>
-          </Routes>
-        </div>
-      </header>
-    </div >
+      <Header />
+      <Routes>
+        <Route path='/ReactShield' element={<Home />}>
+        </Route>
+        <Route path='AboutUs' element={<AboutUs />}>
+        </Route>
+        <Route path='Searvice' element={<Searvice />}>
+        </Route>
+        <Route path='Contact' element={<Contact />}>
+        </Route>
+        <Route path='Pricing' element={<Pricing />}>
+        </Route>
+      </Routes>
+    </div>
   )
 }
 export default App;
